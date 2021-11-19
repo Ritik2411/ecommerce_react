@@ -1,0 +1,23 @@
+.order{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.order_container{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+.order_details_1{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.order_details_2{
+    margin-top: 5px;
+    padding: 10px;
+}

@@ -1,0 +1,63 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234,237,237);
+}
+
+.payment_container_reviews{
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.payment_checkout{
+    background-color: rgb(234,237,237);
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.payment_link{
+    color: black;
+}
+
+.payment_title{
+    display: flex;
+    padding: 10px;
+}
+
+.payment_section{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.payment_title_2{
+    flex: 0.2;
+}
+
+.payment_details{
+    flex: 0.8;
+}
+
+.payment_pricecontainer{
+    margin-top: 10px;
+}
+
+.payment_buy_now_btn{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    border:1px solid #846a29;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+@media only screen and (max-width:520px){
+    .payment_title{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+}
+
+.subtotal_container_line_1{
+    margin-bottom: 20px;
+}
+
+.subtotal_container_line_2{
+    margin-bottom: 20px;
+}
+
+.subtotal_checkout_button > button {
+    width: 100%;
+    background-color: #f0c14b;
+    border-radius: 2px;
+    border:1px solid #846a29;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:980px){
+    .subtotal{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .subtotal{
+        width: 92%;
+    }
+}

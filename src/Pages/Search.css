@@ -1,0 +1,24 @@
+.search_title{
+    margin: 10px;
+    align-items: center;
+}
+
+.search_container{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.search_items{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.search_item_details{
+    padding: 10px;
+}
+
+.search_image{
+    max-height: 200px;
+}
